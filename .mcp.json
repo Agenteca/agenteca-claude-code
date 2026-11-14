@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agenteca": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@agenteca/mcp"
+      ]
+    }
+  }
+}
