@@ -1,0 +1,9 @@
+{
+  "name": "agenteca",
+  "agentPlugins": false,
+  "manifests": [
+    ".claude-plugin/plugin.json"
+  ],
+  "marketplace": ".claude-plugin/marketplace.json",
+  "mcp": ".mcp.json"
+}
