@@ -54,7 +54,9 @@ Each package is scanned before installation (invisible Unicode, download-and-exe
 
 ## Status
 
-Version 0.1.0. `@agenteca/mcp` is not on npm yet: until it is, the MCP server declared here will not start. Checked: `claude plugin validate . --strict` passes and `scripts/validate.mjs` passes. Not checked: a real installation through `/plugin marketplace add`, and running `/hub` in a session.
+Version 0.1.0. `@agenteca/mcp` 0.1.0 is published on npm, and `npx -y @agenteca/mcp@0.1.0` starts the server with its seven tools (checked on 15 November 2026). Checked: `claude plugin validate . --strict` passes and `scripts/validate.mjs` passes. Not checked: a real installation through `/plugin marketplace add`, and running `/hub` in a session.
+
+The skill and the MCP server's tools are written in English; Claude answers in your language. Messages coming from `ahub` follow `AHUB_LANG` (`en`, `fr`, `es`, `zh`, `hi`), or your system's language.
 
 ## Development
 
