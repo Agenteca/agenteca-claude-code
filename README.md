@@ -1,5 +1,7 @@
 # agenteca-claude-code
 
+![Agenteca](.claude-plugin/icon.png)
+
 The Agenteca plugin for **Claude Code**. It adds the `/hub` command and declares the `agenteca` MCP server, so you can search, inspect, install, update and remove AI agent packages without leaving the tool.
 
 Agenteca is a catalog and manager for agent packages: skills, agents, commands, hooks and MCP servers, installed from git repositories into Claude Code, Codex, GitHub Copilot and Cursor. Packages follow the OpenAPM format.
@@ -48,7 +50,6 @@ Each package is scanned before installation (invisible Unicode, download-and-exe
 |---|---|
 | `.claude-plugin/plugin.json` | Plugin manifest |
 | `.claude-plugin/marketplace.json` | One-plugin marketplace, for direct installation from this repository |
-| `.claude-plugin/icon.png` | Listing icon |
 | `skills/hub/SKILL.md` | The `/hub` skill |
 | `.mcp.json` | MCP server declaration |
 
