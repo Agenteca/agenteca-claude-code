@@ -42,6 +42,8 @@ Nothing here is hidden; this section lists all of it.
 - **It reads no credentials.** Access to private repositories relies on your existing git configuration.
 - **It has no hooks.** The plugin itself contains one skill and one MCP server declaration.
 
+The [privacy policy](PRIVACY.md) gives the same information in detail.
+
 Each package is scanned before installation (invisible Unicode, download-and-execute commands, and similar patterns). A package with a critical finding cannot be installed from the agent. The scan catches known tricks; it does not prove a package is safe, so read what you install.
 
 ## What is in this repository

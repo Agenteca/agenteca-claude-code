@@ -13,6 +13,7 @@
   "icon": "./.claude-plugin/icon.png",
   "documentationUrl": "https://github.com/agenteca/agenteca-claude-code#readme",
   "supportUrl": "https://github.com/agenteca/agenteca-claude-code/issues",
+  "privacyPolicyUrl": "https://github.com/agenteca/agenteca-claude-code/blob/main/PRIVACY.md",
   "keywords": [
     "agents",
     "skills",
